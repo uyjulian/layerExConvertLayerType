@@ -1,0 +1,1 @@
+void ConvertAlphaToAddAlpha(tTVPBaseBitmap *destbmp);
