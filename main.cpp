@@ -14,9 +14,11 @@
 #include "LayerBitmapConvertAlphaToAddAlpha.h"
 #include <string.h>
 #include <stdio.h>
+#include "DivTable.h"
 
 static void PreRegistCallback()
 {
+	InitDivTable();
 	iTJSDispatch2 *global = TVPGetScriptDispatch();
 	if (global)
 	{
